@@ -3,9 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var saldo, akhir_saldo, saldo_penarikan int
+	var saldo, akhir_saldo, saldo_penarikan, pin, pin_user, pilihan int
 	var status_kata string
-	var pin, pin_user, pilihan int
 	var Status_ulang bool
 
 	Status_ulang = true
